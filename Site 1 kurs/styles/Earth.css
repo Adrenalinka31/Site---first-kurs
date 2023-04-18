@@ -1,0 +1,127 @@
+.hr-washed3 {
+    position: relative;
+	top:27em;
+    left:121em;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+}
+
+#Earth{
+	position: absolute;
+	top: 28em;
+	left: 190em;
+	width: 13em;
+	height: 13em;
+	
+	border-radius:50%;
+	background-color: rgba(255,255,255,0.9);
+	box-shadow: 0 0 120px #3d3d3d;
+	z-index: 1;
+	font-size: 13px;
+  
+  }
+#Earth {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(https://sun9-54.userapi.com/impg/wy-ZQ0EHEnkqWlVfL6YWP4LhZCzT1YE25Rt_vQ/hy9v8F9XPd4.jpg?size=483x483&quality=96&sign=4384d9ca8a12976d9febbeb24766910f&type=album);
+  }
+  #Earth:hover{
+  position: absolute;
+  top: 28.3em;
+  left: 190em;
+  width: 13em;
+  height: 13em;
+  
+  border-radius:50%;
+  background-color: rgba(255,255,255,0.9);
+  box-shadow: 0 0 120px #5eb4d6;
+  z-index: 1;
+  font-size: 13px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://sun9-54.userapi.com/impg/wy-ZQ0EHEnkqWlVfL6YWP4LhZCzT1YE25Rt_vQ/hy9v8F9XPd4.jpg?size=483x483&quality=96&sign=4384d9ca8a12976d9febbeb24766910f&type=album);
+}
+#EarthText{
+	position:absolute;
+	top: 17.5em;
+	left: 83.5em;
+	font: 30px/26px Arial,sans-sherif;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.9);
+	text-shadow: rgb(0 193 24) 0 0 10px;
+  }
+  #EarthDist{
+	position:relative;
+	top: 6.25em;
+	left: 70em;
+	font: 30px/26px Arial,sans-sherif;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.9);
+	text-shadow: rgb(255, 255, 255) 0 0 10px;
+	}
+
+
+	#infoEarth {
+		border: 0px;
+		display:none;
+		padding:10px;
+		background:#3d3d3d;
+		height:120px;
+		border-radius: 4px;
+		box-shadow: 0px 0px 25px 0px #949494;
+		margin: 0;
+		text-align: center;
+	  }
+	
+	  #Earth:hover #infoEarth{
+		display:block;
+		position:absolute;
+		top:-10em;
+		z-index:1;
+		width:450px;
+		left: -7em;
+		font: 22px/24px Arial,sans-sherif;
+		text-transform: uppercase;
+		color: rgba(255,255,255,0.9);
+	  }
+	  #Earth:hover #infoEarth h2{
+		margin: 0 0 5px 0;
+		font: 22px/24px Arial,sans-sherif;
+		text-transform: uppercase;
+		color: rgba(255,255,255,0.9);
+		  
+	  }
+	  #Earth:hover #infoEarth h3{
+		margin: 0 0 15px 0;
+		font: 14px/18px Arial,sans-sherif;
+		text-transform: uppercase;
+		color: rgba(255,255,255,0.7);
+		  
+	  }
+	  #Earth:hover #infoEarth ul{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		font: 13px/21px Arial,sans-sherif;
+	  }
+	  li {
+		display: list-item;
+		text-align: -webkit-match-parent;
+	  }
+	  #Earth:hover #infoEarth ul .dt-left{
+		float: left;
+		text-align: right;
+		width: 55%;
+		padding: 0;
+		margin: 0;
+	  }
+	  #Earth:hover #infoEarth ul .dt-right{
+		float: right;
+		text-align: left;
+		width: 40%;
+		padding: 0;
+		margin: 0 0 0 5%;
+		font-weight: bold;
+	  }

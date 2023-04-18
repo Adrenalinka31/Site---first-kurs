@@ -1,0 +1,126 @@
+.hr-washed8 {
+    position: relative;
+	top:25em;
+    left:384.8em;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+}
+#Neptune{
+	position: absolute;
+	top: 20.3em;
+	left: 393.5em;
+	width: 13em;
+	height: 13em;
+	
+	border-radius:50%;
+	background-color: rgba(255,255,255,0.9);
+	box-shadow: 0 0 120px #235a8e;
+	z-index: 1;
+	font-size: 17px;
+  
+  }
+#Neptune{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(https://sun9-14.userapi.com/impg/LkMDKWRxgIXyi4Ij9uR5YYs2RixXtdmfuGkrSw/lKKq2JDaNQA.jpg?size=1273x1268&quality=96&sign=beefed8768fe6069b645b87c3e2492fa&type=album);
+  }
+  #Neptune:hover{
+    position: absolute;
+    top: 20.3em;
+    left: 393.5em;
+    width: 13em;
+    height: 13em;
+    
+    border-radius:50%;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 0 0 120px #3671ca;
+    z-index: 1;
+    font-size: 17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://sun9-14.userapi.com/impg/LkMDKWRxgIXyi4Ij9uR5YYs2RixXtdmfuGkrSw/lKKq2JDaNQA.jpg?size=1273x1268&quality=96&sign=beefed8768fe6069b645b87c3e2492fa&type=album);
+  }
+  #NeptuneText{
+	position:absolute;
+	top: 18.8em;
+	left: 224.4em;
+	font: 30px/26px Arial,sans-sherif;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.9);
+	text-shadow:rgb(49 109 245) 0 0 10px;
+  }
+  #NeptuneDist{
+	position:relative;
+	top: -3.05em;
+	left: 210em;
+	font: 30px/26px Arial,sans-sherif;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.9);
+	text-shadow: rgb(255, 255, 255) 0 0 10px;
+	}
+
+
+	#infoNeptune {
+		border: 0px;
+		display:none;
+		padding:10px;
+		background:#3d3d3d;
+		height:120px;
+		border-radius: 4px;
+		box-shadow: 0px 0px 25px 0px #949494;
+		margin: 0;
+		text-align: center;
+	  }
+	
+	  #Neptune:hover #infoNeptune{
+		display:block;
+		position:absolute;
+		top:-10em;
+		z-index:1;
+		width:450px;
+		left: -6em;
+		font: 22px/24px Arial,sans-sherif;
+		text-transform: uppercase;
+		color: rgba(255,255,255,0.9);
+	  }
+	  #Neptune:hover #infoNeptune h2{
+		margin: 0 0 5px 0;
+		font: 22px/24px Arial,sans-sherif;
+		text-transform: uppercase;
+		color: rgba(255,255,255,0.9);
+		  
+	  }
+	  #Neptune:hover #infoNeptune h3{
+		margin: 0 0 15px 0;
+		font: 14px/18px Arial,sans-sherif;
+		text-transform: uppercase;
+		color: rgba(255,255,255,0.7);
+		  
+	  }
+	  #Neptune:hover #infoNeptune ul{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		font: 13px/21px Arial,sans-sherif;
+	  }
+	  li {
+		display: list-item;
+		text-align: -webkit-match-parent;
+	  }
+	  #Neptune:hover #infoNeptune ul .dt-left{
+		float: left;
+		text-align: right;
+		width: 55%;
+		padding: 0;
+		margin: 0;
+	  }
+	  #Neptune:hover #infoNeptune ul .dt-right{
+		float: right;
+		text-align: left;
+		width: 40%;
+		padding: 0;
+		margin: 0 0 0 5%;
+		font-weight: bold;
+	  }

@@ -1,0 +1,126 @@
+.hr-washed4 {
+    position: relative;
+	top:26.6em;
+    left:168.3em;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+}
+#Mars{
+	position: absolute;
+	top: 57.4em;
+	left: 460.5em;
+	width: 13em;
+	height: 13em;
+	
+	border-radius:50%;
+	background-color: rgba(255,255,255,0.9);
+	box-shadow: 0 0 120px #85462a;
+	z-index: 1;
+	font-size: 7px;
+  
+  }
+#Mars{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(https://sun9-40.userapi.com/impg/PS-J8kDRjDbL0-1TMdvWVDl2FLBUgxBMFdmaCQ/mlEchPwA4FE.jpg?size=1271x1271&quality=96&sign=f552353fc7a0491e73b9327a7e146263&type=album);
+  }
+  #Mars:hover{
+    position: absolute;
+    top: 57.7em;
+    left: 460.5em;
+    width: 13em;
+    height: 13em;
+    
+    border-radius:50%;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 0 0 120px #d3602b;
+    z-index: 1;
+    font-size: 7px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://sun9-40.userapi.com/impg/PS-J8kDRjDbL0-1TMdvWVDl2FLBUgxBMFdmaCQ/mlEchPwA4FE.jpg?size=1271x1271&quality=96&sign=f552353fc7a0491e73b9327a7e146263&type=album);
+  }
+  #MarsText{
+	position:absolute;
+	top: 16.3em;
+	left: 107.6em;
+	font: 30px/26px Arial,sans-sherif;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.9);
+	text-shadow:#d3602b 0 0 10px;
+  }
+  #MarsDist{
+	position:relative;
+	top: 4.4em;
+	left: 94.5em;
+	font: 30px/26px Arial,sans-sherif;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.9);
+	text-shadow: rgb(255, 255, 255) 0 0 10px;
+	}
+
+
+	#infoMars {
+		border: 0px;
+		display:none;
+		padding:10px;
+		background:#3d3d3d;
+		height:120px;
+		border-radius: 4px;
+		box-shadow: 0px 0px 25px 0px #949494;
+		margin: 0;
+		text-align: center;
+	  }
+	
+	  #Mars:hover #infoMars{
+		display:block;
+		position:absolute;
+		top:-10em;
+		z-index:1;
+		width:450px;
+		left: -9em;
+		font: 22px/24px Arial,sans-sherif;
+		text-transform: uppercase;
+		color: rgba(255,255,255,0.9);
+	  }
+	  #Mars:hover #infoMars h2{
+		margin: 0 0 5px 0;
+		font: 22px/24px Arial,sans-sherif;
+		text-transform: uppercase;
+		color: rgba(255,255,255,0.9);
+		  
+	  }
+	  #Mars:hover #infoMars h3{
+		margin: 0 0 15px 0;
+		font: 14px/18px Arial,sans-sherif;
+		text-transform: uppercase;
+		color: rgba(255,255,255,0.7);
+		  
+	  }
+	  #Mars:hover #infoMars ul{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		font: 13px/21px Arial,sans-sherif;
+	  }
+	  li {
+		display: list-item;
+		text-align: -webkit-match-parent;
+	  }
+	  #Mars:hover #infoMars ul .dt-left{
+		float: left;
+		text-align: right;
+		width: 55%;
+		padding: 0;
+		margin: 0;
+	  }
+	  #Mars:hover #infoMars ul .dt-right{
+		float: right;
+		text-align: left;
+		width: 40%;
+		padding: 0;
+		margin: 0 0 0 5%;
+		font-weight: bold;
+	  }
